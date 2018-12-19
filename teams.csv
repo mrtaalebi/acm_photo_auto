@@ -1,0 +1,85 @@
+ID,Reg Order,Institution,uni,Team Name,نام دانشگاه,Coach,Contestant 1,Contestant 2,Contestant 3,C1,C2,C3
+1,57,Azad University of Lahijan,azad,LIAU,دانشگاه آزاد اسلامی لاهیجان,Hossein Safari,Sargol Jafari,Mohamad Reza Kasraee,Hossein Safari,Female,Male,Male
+2,59,Isfahan University of Technology,isfahantech,Daedalus,دانشگاه صنعتی اصفهان,Kayvan Mazaheri,Mahdi Alikhasi,Fatemeh Karimi,Leily Nourbakhsh,Male,Female,Female
+3,24,Qom University,qom,besparma,دانشگاه قم,Ali Karimi,Seyyed Mohammad Mahdi Hosseini,Ali Karimi,Mohamad Nazari,Male,Male,Male
+4,8,Shahid Beheshti University,beheshti,ARP,دانشگاه شهید بهشتی,Roozbeh Sayadi,Parastoo Falakaflaki,Amirali Monjar,Roozbeh Sayadi,Female,Male,Male
+5,62,University of Isfahan,isfahan,GrassessOfPhysicsRemovers,دانشگاه اصفهان,Amirhosein Aliakbarian,Hossein Ghojavand,Younes Moradi,Sajjad Yazdanparast,Male,Male,Male
+6,5,University of Tehran,tehran,HajAgha,دانشگاه تهران,Bagher Babaali,Reza Arabpour,Kasra Kakaee,Alireza Tavakoli,Male,Male,Male
+7,39,PayamNoor University Of Najaf Abad,payamnor,Free-fall,دانشگاه پیام نور نجف‌آباد,Mohammad Rostami,Sara Amini,Fatemeh Azadbakht,Zahra Sharifi,Female,Female,Female
+8,3,Amirkabir University of Technology,amirkabir,Tatiana,دانشگاه صنعتی امیرکبیر,Amin Gheibi,Amir Hossein Pashaeehir,Alireza Sorkhabad Pazoki,Amirabbas Zarei,Male,Male,Male
+9,20,Alzahra University,azahra,Bellona,دانشگاه الزهرا,Marzieh Eskandari,Moniba Ravan,Zahra Talebi,Niloofar Torkamani,Female,Female,Female
+10,28,Bu-Ali Sina University,buali,mikasa,دانشگاه بوعلی‌سینا,Fateme Nourmohammadi,Ali Kaviany,Farhan Koolivand,Mohammad Parsian,Male,Male,Male
+11,19,Shahab Danesh University,shahab,ProgrammerZ,موسسه آموزش عالی شهاب دانش,Hamed Rahimi,Ali Emadi,Mahdi Tahannejad,Mohammad Ali Zakeri,Male,Male,Male
+12,65,Shiraz University,shiraz,MFNQOC,دانشگاه شیراز,Mohammad Taheri,Negin Khalifat,Fatemeh Masoudi,Melika Zare,Female,Female,Female
+13,70,Shahrood University,shahrod,umop ǝpisdn,دانشگاه شاهرود,Amir Hossein Samadi Pour,Mojtaba Moradi,Hosein Ramezan Ghorbani,Amirali Taheri,Male,Male,Male
+14,12,Iran University of Science & Technology,elmos,ZalBloDal,دانشگاه علم و صنعت ایران,Hassan Naderi,Mobin Dariush Hamedani,Soheil Rastegar,Ali Safarpoor Dehkordi,Male,Male,Male
+15,54,Gonbad Kavoos University,gonbad,Uganda knuckles,دانشگاه گنبد کاووس,Hossein Haghighat,Amirreza Kafshnochi,Peyman Parvasi,Shayan Razi,Male,Male,Male
+16,25,Khayyam University,khayam,3SUM,دانشگاه خیام مشهد,Mohsen Parhizgar,Mostafa Fakhraee,Amir Hossein Farzin,Arsham Mohamadi Neyshabori,Male,Male,Male
+17,40,University of Kurdistan,kordestan,SO11,دانشگاه کردستان,Kia Salvati,Sanaan Marabi,Mehran Sabeti,Soroush Sabeti,Male,Male,Male
+18,42,Urmia University,urmia,Urmia dummies,دانشگاه ارومیه,Ali Derakhshan,Faraz Azadi,Mohammad Javadian,Amin Najafvandasl,Male,Male,Male
+19,29,Bu-Ali Sina University,buali,Freaks & Geeks,دانشگاه بوعلی‌سینا,Mohammad Saleh Montazeran,Vida Foruzan,Mohammad Saleh Montazeran,Parto Shahrodi,Female,Male,Female
+20,0,Sharif University of Technology,sharif,Kolompeh,دانشگاه صنعتی شریف,Seyed Parsa Mirtaheri,Ali Behjati,Seyed Parsa Mirtaheri,Mohammad Mahdi Shokri,Male,Male,Male
+21,63,University of Kashan,kashan,Wasted Talent(s),دانشگاه کاشان,Mohamad Hatef Javeri,Mohammad Fallah,Mohamad Hatef Javeri,Omid Zarea,Male,Male,Male
+22,44,Urmia University,urmia,Shire Shire Pir,دانشگاه ارومیه,Mehdi Allahyari,Mehdi Allahyari,Mazyar Ghezelji,Sajjad Haghighat,Male,Male,Male
+23,49,Ferdowsi University of Mashhad,ferdosi,"Penny, Penny, Penny",دانشگاه فردوسی مشهد,Morteza Malekabadi,Majid Askari,Mohammad Dara,Seyed Navid Ghassemi,Male,Male,Male
+24,52,University of Tabriz,tabriz,The Hateful Three,دانشگاه تبریز,Masoud Aghdasifam,Araz Gholipour Shilabin,Yashar Heydari,Amir Hosein Shekari,Male,Male,Male
+25,66,Shiraz University,shiraz,IAAA,دانشگاه شیراز,Babak Ahmadi,Ali Mahdiyar,Ali Parvizi,Ali Zia Razzaz,Male,Male,Male
+26,6,University of Tehran,tehran,"A bonus to Sara, The DJ to Z.",دانشگاه تهران,Sepehr Saeedpour,Mohammad Hadi Hojjat,Yara Kamkar,Mojtaba Shahbazi,Male,Male,Male
+27,37,Golestan University of Grogan,golestan,Haise,دانشگاه گلستان,Ali Hatamshoar,Saeed Mansourian,Mohammadreza Pourbaba,Sara Ramezani,Male,Male,Female
+28,67,Shahid Bahonar University of Kerman,bahonar,cheto?,دانشگاه شهید باهنر کرمان,Mohammad Hoseyn Nakhaei Pour,Alireza Afzali,Seyed Nima Maki Abadi,Mohammad Hoseyn Nakhaei Pour,Male,Male,Male
+29,1,Amirkabir University of Technology,amirkabir,Whatever,دانشگاه صنعتی امیرکبیر,Pooya Zafar Asadollahpoor,Ismail Naderi,Maryam Rahmani,Milad Rezaei Hajidehi,Male,Female,Male
+30,0,Sharif University of Technology,sharif,Deadlines Deadpolygons,دانشگاه صنعتی شریف,Mohammad Saneian,Arash Mahmoudian Bidgoli,Amir Mojtaba Sabour,Mohammad Saneian,Male,Male,Male
+31,73,Shahid Chamran University of Ahvaz,chamranahvaz,Overconfident,دانشگاه شهید چمران اهواز,Ghazal Arefzadeh,Dariush Makvandi,Mohammad Amin Meshk,Nikoo Moradi Lirgashasi,Male,Male,Female
+32,47,Ferdowsi University of Mashhad,ferdosi,New Arrange(),دانشگاه فردوسی مشهد,Ali Jamadi,Homa Habashi,Hojat-Allah Sargolzehi,Mobin Vahdati,Female,Male,Male
+33,78,Birjand University,birjand,js.h,دانشگاه بیرجند,Abdollah Zakeri,Sajad Ahmadi,Hossein Allahresani,Javid Norouzi,Male,Male,Male
+34,79,Institute for Advanced Studies in Basic Sciences,ifasibs,team0_,دانشگاه تحصیلات تکمیلی علوم پایه زنجان,Bahram Sadeghi Bigham,Mohammadmahdi Alijani,Amirhossein Mafi,Alireza Nadirkhanlou,Male,Male,Male
+35,50,Imam Reza University of Mashhad,imamreza,why so serious?!,دانشگاه امام رضا مشهد,Saeid Abbaasi,Amirhossein Akbarzade,Yosef Farahmand,Mohsen Zoghdar,Male,Male,Male
+36,43,Urmia University,urmia,Not Good,دانشگاه ارومیه,Yashar Shahi,Mohammad Javad Hosseinpour,Mohammad Mostafavi,Khashayar Shahi,Male,Male,Male
+37,7,University of Tehran,tehran,NeshesTeam,دانشگاه تهران,Navid Rahimidanesh,Abtin Bateni,Shayan Hosseini,Navid Rahimidanesh,Male,Male,Male
+38,35,Yazd University,yazd,new phantom:),دانشگاه یزد,Mahdieh Alavizadeh,Mahdieh Alavizadeh,Marjan Bg,Mostafa Mozafari,Female,Female,Male
+39,27,Sadjad University of Technology,sajad,BFS.,دانشگاه صنعتی سجاد,Somayeh Eslami,Mohammadali Anaraki,Negin Doostar,Seyed Hesam Zakerin Mousavi,Male,Female,Male
+40,30,Hamedan University of Technology,hamedan,good game ez,دانشگاه صنعتی همدان,Fatemeh Amiri,Yousef Ardalan,Mohammad Hossein Baybordi,Amir Salimi,Male,Male,Male
+41,61,Somayeh Najaf Abad Technical College,fani,Paradigm,آموزشکده فنی و حرفه‌ای سمیه نجف‌آباد,Mohammad Rostami,Farzaneh Khajehgili,Niloofar Sharifi,Zahra Yazdani,Female,Female,Female
+42,21,Islamic Azad University of Karaj,azad,KIAU,دانشگاه آزاد اسلامی کرج,Hadi Saboohi,Amir Mohammad Bayat,Seyed Mohammad Bagher Hosseini,Amirmahdi Kalbasi,Male,Male,Male
+43,22,Qom Islamic Azad University,azad,Binary Minds,دانشگاه آزاد اسلامی قم,Leila Esmaeili,Amin Havasi,Ali Movahedi,Ahmad Rahmani,Male,Male,Male
+44,56,Mohaghegh Ardebili University,ardabili,ByGoosh,دانشگاه محقق اردبیلی,Danial Mirizadeh,Amirreza Azadpour,Mohsen Ebadpour,Solmaz Nasiri,Male,Male,Female
+45,76,Islamic Azad University of Qazvin,azad,Faral,دانشگاه آزاد اسلامی قزوین,Mohammad Hossein Rezvani,Mohammad Amin Ghaemi,Aida Irandoust,Maryam Nahvi,Male,Female,Female
+46,36,"Ghis-al-din Jamshid Kashani , Abyek",jamshid,Kashani,دانشگاه غیاث‌الدین جمشید کاشانی,Maryam Ghaem Panah,Abbas Jafarnejad,Morteza Shahbazi,Mostafa Zebardast,Male,Male,Male
+47,45,Mazandaran University of Science and Technology,mazandaran,Be Yade Salar,دانشگاه علوم و فنون مازندران,Alireza Darvish,Alireza Darvish,Hessamoddin Mousavi Kani,Mohammad Hossein Nazari,Male,Male,Male
+48,23,Qom Technical And Vocational University,fani,know no algorithms,دانشگاه فنی و حرفه‌ای قم,Razieh Qiasi,Fatemeh Ghasemi,Sara Rasoulian,Hanieh Yazdian,Female,Female,Female
+49,53,Babol University of Technology,babol_t,Codinston,دانشگاه صنعتی بابل,Yusef Sadatfakhr,Hossein Dahaee,Alireza Rajabi,Yusef Sadatfakhr,Male,Male,Male
+50,14,Tehran Technical College of Shariaty,shariati,msz,دانشکده فنی دکتر شریعتی تهران,Sarvenaz Aghadavoudi,Sarvenaz Aghadavoudi,Mina Masoumi,Zahra Mousavi,Female,Female,Female
+51,77,University of Semnan,semnan,Robert Kalkhoran,دانشگاه سمنان,Morteza Dorrigiv,Reza Gholamzad,Mehran Shomali,Mahdi Yousefi,Male,Male,Male
+52,17,Khaje Nasir Toosi University of Technology,nasir,squanchers,دانشگاه خواجه نصیرالدین طوسی,Ali Oliayi,Sina Abbasi,Saeed Odak,Erfan Zaree,Male,Male,Male
+53,51,Payame Noor University of Mashhad,payamnor,Just for fun,دانشگاه پیام نور مشهد,Mehrdad Maleki,Amirhossein Baghaie,Mahdi Hosseinzade Bahreini,Amir Mohammad Najmi,Male,Male,Male
+54,68,Shahid Bahonar University of Kerman,bahonar,While true,دانشگاه شهید باهنر کرمان,Benyamin Mazhari Safat,Mohammad Mahdi Amiri Doumari,Mohammad Reza Iranmanesh,Mahdi Rezaei,Male,Male,Male
+55,64,Shiraz University,shiraz,Incredibles 3,دانشگاه شیراز,Morteza Keshtkaran,Amin Baghbanbashi,Vahid Ghareghani,Mahdi Hosseiny Farzad,Male,Male,Male
+56,75,Jahrom University,jahrom,Eververse,دانشگاه جهرم,Mohammad Javad Parseh,Alireza Askarpour,Amirhossein Fakhrizadeh,Farhood Khajavi,Male,Male,Male
+57,48,Ferdowsi University of Mashhad,ferdosi,Bozonghereh,دانشگاه فردوسی مشهد,Nastaran Okati,Benyamin Bashari,Ehsan Kafshdar Goharshady,Kiarash Mohammadi,Male,Male,Male
+58,74,Islamic Azad University of Mashhad,azad,Fazeto doos daraM!,دانشگاه آزاد اسلامی مشهد,Reza Godaz,Shahin Hakemi,Mojtaba Jalambadani,Alireza Rezaeinia,Male,Male,Male
+59,13,Ale-Taha Institute Of Higher Education,taha,AT_ACMT,موسسه آموزش عالی آل طه,Hossein Shemshadi,Fatemeh Arabdoust,Reyhaneh Ebrahimi,Haniyeh Mosaali,Female,Female,Female
+60,41,University of Zanjan,zanjan,Gill Bates,دانشگاه زنجان,Kamal Mohammadi Asl,Hadi Babaei,Hossein Raoufi,Morteza Seydi,Male,Male,Male
+61,72,Vali-E-Asr University,valiasr,The 3.KalePook,دانشگاه ولی عصر,Mehrdad Azizi,Mahdi Hosseini,Ehsan Jafari,Alireza Mohammadi,Male,Male,Male
+62,26,Sadjad University of Technology,sajad,Synergy - Reputation.,دانشگاه صنعتی سجاد,Saeed Yazdanian,Hamed Ranjbar,Sajjad Sanami Mesgaran,Ahmadreza Satvati,Male,Male,Male
+63,18,Kharazmi University,kharazmi,Adult Code,دانشگاه خوارزمی,Seyed Mohammad Mahdi Ghadamgahi,Seyed Mohammad Mahdi Ghadamgahi,Amirhosein Ghanian,Alireza Nooran,Male,Male,Male
+64,0,Sharif University of Technology,sharif,Kamerana,دانشگاه صنعتی شریف,Hamidreza Kamkari,Hamidreza Kamkari,Mohammad Mahdavi,Mehrdad Saberi,Male,Male,Male
+65,55,Kashmar Higher Education Institute,kashmar,Floyd,موسسه آموزش عالی کاشمر,Faeze Ramezani,Mohammadhosean Hoseannejad,Faeze Ramezani,Hadi Zarezade,Male,Female,Male
+66,11,Shahid Beheshti University,beheshti,Doggy Sweat,دانشگاه شهید بهشتی,Mehdi Kazemi,Erfan Alimohammadi,Amin Anvari,Mohammad Reza Mohseni,Male,Male,Male
+67,38,Guilan University,guilan,Byte me,دانشگاه گیلان,Seyed Abolghasem Mirroshandel,Saeed Ahmadnia,Amirhossein Mahdinejad,Arash Yousefi,Male,Male,Male
+68,31,Payame Noor University of Hamedan,payamnor,Bargaaaaaam :),دانشگاه پیام نور همدان,Omid Jalilian,Alireza Aghamohamadi,Saman Ghandian,Babak Kazempour,Male,Male,Male
+69,32,Sheikhbahaee Universtity,bahai,Wrong An$wer,دانشگاه شیخ بهایی,Maryam Mirdehghani,Amir Mohammad Hemmatiyan Larki,Amir Parsa Rahimian,Samin Semsar,Male,Male,Female
+70,71,Hakim Sabzevari University,hakimsabz,DELETE FROM TEAM WHERE UNI<>HSU,دانشگاه حکیم سبزواری,Morteza Jafarzadeh,Sajjad Farhoodfar,Morteza Jalambadani,Amin Tahmasebi,Male,Male,Male
+71,15,Imam-Khomeini International University,imamkhom,Expert {Coders},دانشگاه بین‌المللی امام خمینی,Erfan Yazdpour,Javad Asadi,Saleh Shekari,Erfan Yazdpour,Male,Male,Male
+72,33,Bonab Faculty of Engineering,bonab,Alt+F4,دانشگاه بناب,Omid Sedighi,Fateme Alinezhad,Omid Sedighi,Ali Shabanpoor,Female,Male,Male
+73,2,Amirkabir University of Technology,amirkabir,Temporarily Rebellion,دانشگاه صنعتی امیرکبیر,Reza Hosseini Ashtiani,Parsa Abdollahi,Mohammad Erfan Gholamian,Amirreza Pourakhavan,Male,Male,Male
+74,58,Isfahan University of Technology,sharif,Parallelogram,دانشگاه صنعتی اصفهان,Alireza Omidi,Maryam Meghdadi,Zahra Parsaeian,Tahereh Talaei,Female,Female,Female
+75,34,Yazd University,yazd,who let devs out?,دانشگاه یزد,Saman Dehestani,Saman Dehestani,Morteza Kamaladdini Ezzabady,Ebrahim Tahernejad,Male,Male,Male
+76,60,Isfahan University of Technology,sharif,HashMac,دانشگاه صنعتی اصفهان,Alireza Omidi,Mehran Aghabozorg,Mohammad Dehghan,Alireza Kheradmand,Male,Male,Male
+77,69,Shahid Bahonar University of Kerman,bahonar,Hatta hanooyam maloom ni?,دانشگاه شهید باهنر کرمان,Hossein Vahidi,Seyed Mani Sadati,Mohammad Shahidzade,Mohammad Mahdi Taheri,Male,Male,Male
+78,0,Sharif University of Technology,sharif,Oh Toh! We're coming,دانشگاه صنعتی شریف,Ali Shafiee,Shayan Cheshm Jahan,Keivan Rezaei,Ali Shafiee,Male,Male,Male
+79,4,University of Tehran,tehran,asdf!,دانشگاه تهران,Ehsan Escandari,Ehsan Escandari,Mohamad Sina Pakseresht,Seyed Ali Tabatabaie,Male,Male,Male
+80,10,Shahid Beheshti University,beheshti,Back Alley Dominators,دانشگاه شهید بهشتی,Mehdi Kazemi,Arian Banaee,Ali Mohammadi Soumee,Amir Valizadeh,Male,Female,Male
+81,46,Ferdowsi University of Mashhad,ferdosi,Maybe Last Contest,دانشگاه فردوسی مشهد,Negar Layegh,Ali Amiryan,Hojjat Hajizade Nowkhandan,Abolfazl Zarghani,Male,Male,Male
+82,16,Khaje Nasir Toosi University of Technology,nasir,MSA,دانشگاه خواجه نصیرالدین طوسی,Majid Ramezankhani,Soheil Changizi,Amirhossein Hassankhani,Mohammad Moghadas,Male,Male,Male
+83,9,Shahid Beheshti University,beheshti,Gorazzers,دانشگاه شهید بهشتی,Mohammad Mahdi Ahangaran,Mohammad Mahdi Ahangaran,Behdad Ahmadi,Ali Mirjahani,Male,Male,Male
+84,80,University of Sistan and Baluchestan,sistan,For a few Dollars..,دانشگاه سیستان و بلوچستان,Mehran Rigi,Hamed Jaziny,Seyyed Mohammad Mousavi,Ali Yazdanpanah,Male,Male,Male

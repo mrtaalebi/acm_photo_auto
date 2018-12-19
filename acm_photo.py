@@ -14,10 +14,11 @@ def create_image(team_number, csv, brand, uni_logos_path, team_pics_path, out_pa
         team_path = "{}/{}".format(team_pics_path, team_number)
         print(team_path)
         team_pic = Image.open(team_path)
+        team_pic = team_pic.convert("RGBA")
     except:
         print("\033[0;31m TEAM PIC ERROR FOR TEAM NUMEBR: {} RETURNING \033[0m".format(team_number))
         return
-    team_pic.paste(uni_logo)
+    team_pic.paste(uni_logo, (0, 0, 10, 10), uni_logo.convert("RGBA"))
     team_pic.save("{}/{}".format(out_path, team_number), "PNG")
 
 
