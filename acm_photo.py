@@ -2,7 +2,7 @@ from PIL import Image
 from PIL import PngImagePlugin
 
 
-def create_image(team_number, card, team_pics_path, out_path, padding_left, width):
+def create_image(team_number, card, team_pics_path, out_path, padding_left, padding_top, width):
     try:
         team_path = "{}/{}".format(team_pics_path, team_number)
         print(team_path)
@@ -15,7 +15,7 @@ def create_image(team_number, card, team_pics_path, out_path, padding_left, widt
     team_pic.thumbnail((width, int(width * h1 / w1)), Image.ANTIALIAS)
     print(card.size)
     print(team_pic.size)
-    team_pic.paste(card, (int(team_pic.size[0] * padding_left), int((team_pic.size[1] - card.size[1]) / 2)), card.convert("RGBA"))
+    team_pic.paste(card, (int(team_pic.size[0] * padding_left), int(team_pic.size[1] * padding_top), card.convert("RGBA"))
     team_pic.save("{}/{}".format(out_path, team_number), "PNG")
 
 
@@ -62,8 +62,8 @@ width = 1366
 height = int(3 / 5 * width)
 
 for i in range(1, 100):
-    card, top = init_card(int(width * 0.25), int(height * 0.8), brand)
+    card, top = init_card(int(width * 0.25), int(height * 0.9), brand)
     card = uni_logo_to_card(i, csv, card, top, "new_logos", 0.25)
-    create_image(i, card, "teams", "out", 0.03, width)
+    create_image(i, card, "teams", "out", 0.03, 0.01, width)
 
 
