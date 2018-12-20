@@ -15,7 +15,7 @@ def create_image(team_number, card, team_pics_path, out_path, padding_left, padd
     team_pic.thumbnail((width, int(width * h1 / w1)), Image.ANTIALIAS)
     print(card.size)
     print(team_pic.size)
-    team_pic.paste(card, (int(team_pic.size[0] * padding_left), int(team_pic.size[1] * padding_top), card.convert("RGBA"))
+    team_pic.paste(card, (int(team_pic.size[0] * padding_left), int(team_pic.size[1] * padding_top)), card.convert("RGBA"))
     team_pic.save("{}/{}".format(out_path, team_number), "PNG")
 
 
@@ -39,9 +39,9 @@ def uni_logo_to_card(team_number, csv, card, team_info_top, uni_logos_path, uni_
         return
     uni_logo.thumbnail((int(card.size[0] * uni_logo_percentage * (1 - padding)),
         int(card.size[0] * uni_logo_percentage * (1 - padding) * uni_logo.size[1] / uni_logo.size[0])), Image.ANTIALIAS)
-    card.paste(uni_logo, (int((card.size[0] - uni_logo.size[0]) / 2), int((card.size[1] + team_info_top - uni_logo.size[1]) / 2)), uni_logo.convert("RGBA"))
+    card.paste(uni_logo, (int((card.size[0] - uni_logo.size[0]) / 2), int(team_info_top)), uni_logo.convert("RGBA"))
     card.save("temp", "PNG")
-    return card
+    return card, team_info_top + uni_logo.size[1] * 1.02
 
 
 def csv_loader(path_to_csv):
@@ -63,7 +63,9 @@ height = int(3 / 5 * width)
 
 for i in range(1, 100):
     card, top = init_card(int(width * 0.25), int(height * 0.9), brand)
-    card = uni_logo_to_card(i, csv, card, top, "new_logos", 0.25)
+    // write names
+    card, top = uni_logo_to_card(i, csv, card, top, "new_logos", 0.25)
+    // write uni name
     create_image(i, card, "teams", "out", 0.03, 0.01, width)
 
 
