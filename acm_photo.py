@@ -2,7 +2,7 @@ from PIL import Image
 from PIL import PngImagePlugin
 
 
-def create_image(team_number, card, team_pics_path, out_path, padding_left, padding_top):
+def create_image(team_number, card, team_pics_path, out_path, padding_left, width):
     try:
         team_path = "{}/{}".format(team_pics_path, team_number)
         print(team_path)
@@ -12,8 +12,10 @@ def create_image(team_number, card, team_pics_path, out_path, padding_left, padd
         print("\033[0;31m TEAM PIC ERROR FOR TEAM NUMEBR: {} RETURNING \033[0m".format(team_number))
         return
     w1, h1 = team_pic.size
-    team_pic.thumbnail((1920, int(1920 * h1 / w1)), Image.ANTIALIAS)
-    team_pic.paste(card, (int(padding_left * team_pic.size[0]), int(padding_top * team_pic.size[1])), card.convert("RGBA"))
+    team_pic.thumbnail((width, int(width * h1 / w1)), Image.ANTIALIAS)
+    print(card.size)
+    print(team_pic.size)
+    team_pic.paste(card, (int(team_pic.size[0] * padding_left), int((team_pic.size[1] - card.size[1]) / 2)), card.convert("RGBA"))
     team_pic.save("{}/{}".format(out_path, team_number), "PNG")
 
 
@@ -21,8 +23,7 @@ def init_card(width, height, brand):
     card = Image.new('RGBA', (width, height))
     brand.thumbnail((width, int(brand.size[1] * width / brand.size[0])), Image.ANTIALIAS)
     card.paste(brand, (0, 0), brand.convert("RGBA"))
-    team_info_top = height - brand.size[1]
-    return card, team_info_top
+    return card, brand.size[1]
 
 
 def png_safe():
@@ -57,9 +58,12 @@ def csv_loader(path_to_csv):
 png_safe()
 csv = csv_loader("teams.csv")
 brand = Image.open("brand")
+width = 1366
+height = int(3 / 5 * width)
+
 for i in range(1, 100):
-    card, top = init_card(500, 1200, brand)
+    card, top = init_card(int(width * 0.25), int(height * 0.8), brand)
     card = uni_logo_to_card(i, csv, card, top, "new_logos", 0.25)
-    create_image(i, card, "teams", "out", 0.05, 0.1)
+    create_image(i, card, "teams", "out", 0.03, width)
 
 
