@@ -1,15 +1,8 @@
 from PIL import Image
 from PIL import PngImagePlugin
 
-def create_image(team_number, csv, brand, uni_logos_path, team_pics_path, out_path):
-    try:
-        Image.MAX_IMAGE_PIXELS = None
-        PngImagePlugin.MAX_TEXT_CHUNK = 1000000000000
-        uni_path = "{}/{}".format(uni_logos_path, csv[team_number][csv[0].index("uni")])
-        print(uni_path)
-        uni_logo = Image.open(uni_path)
-    except:
-       print("\033[0;31m UNI LOGO ERROR FOR TEAM NUMEBR: {} RETURNING \033[0m".format(team_number))
+
+def create_image(team_number, card, team_pics_path, out_path, padding_left, padding_top):
     try:
         team_path = "{}/{}".format(team_pics_path, team_number)
         print(team_path)
@@ -18,8 +11,36 @@ def create_image(team_number, csv, brand, uni_logos_path, team_pics_path, out_pa
     except:
         print("\033[0;31m TEAM PIC ERROR FOR TEAM NUMEBR: {} RETURNING \033[0m".format(team_number))
         return
-    team_pic.paste(uni_logo, (0, 0, 10, 10), uni_logo.convert("RGBA"))
+    w1, h1 = team_pic.size
+    team_pic.thumbnail((1920, int(1920 * h1 / w1)), Image.ANTIALIAS)
+    team_pic.paste(card, (int(padding_left * team_pic.size[0]), int(padding_top * team_pic.size[1])), card.convert("RGBA"))
     team_pic.save("{}/{}".format(out_path, team_number), "PNG")
+
+
+def init_card(width, height, brand):
+    card = Image.new('RGBA', (width, height))
+    brand.thumbnail((width, int(brand.size[1] * width / brand.size[0])), Image.ANTIALIAS)
+    card.paste(brand, (0, 0), brand.convert("RGBA"))
+    team_info_top = height - brand.size[1]
+    return card, team_info_top
+
+
+def png_safe():
+    Image.MAX_IMAGE_PIKELS = None
+    PngImagePlugin.MAX_TEXT_CHUNK = 1000000000000
+
+
+def uni_logo_to_card(team_number, csv, card, team_info_top, uni_logos_path, uni_logo_percentage, padding=0.1):
+    try:
+        uni_logo = Image.open("{}/{}".format(uni_logos_path, csv[team_number][csv[0].index("uni")]))
+    except:
+        print("\033[0;31m UNI LOGO ERROR FOR TEAM NUMEBR: {} RETURNING \033[0m".format(team_number))
+        return
+    uni_logo.thumbnail((int(card.size[0] * uni_logo_percentage * (1 - padding)),
+        int(card.size[0] * uni_logo_percentage * (1 - padding) * uni_logo.size[1] / uni_logo.size[0])), Image.ANTIALIAS)
+    card.paste(uni_logo, (int((card.size[0] - uni_logo.size[0]) / 2), int((card.size[1] + team_info_top - uni_logo.size[1]) / 2)), uni_logo.convert("RGBA"))
+    card.save("temp", "PNG")
+    return card
 
 
 def csv_loader(path_to_csv):
@@ -31,9 +52,14 @@ def csv_loader(path_to_csv):
     return csv
 
 
+
+
+png_safe()
 csv = csv_loader("teams.csv")
-brand = Image.open("brand.jpg")
+brand = Image.open("brand")
 for i in range(1, 100):
-    create_image(i, csv, brand, "new_logos", "teams", "out")
+    card, top = init_card(500, 1200, brand)
+    card = uni_logo_to_card(i, csv, card, top, "new_logos", 0.25)
+    create_image(i, card, "teams", "out", 0.05, 0.1)
 
 

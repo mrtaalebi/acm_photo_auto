@@ -14,8 +14,8 @@ def trans_back(data):
     return converted
 
 
-for f in os.listdir("{}/{}".format(os.getcwd(), "logos")):
-    img = Image.open("{}/{}".format("logos", f))
+for f in os.listdir("{}/{}".format(os.getcwd(), "logosss")):
+    img = Image.open("{}/{}".format("logosss", f))
     img = img.convert("RGBA")
     data = img.getdata()
     trans = trans_back(data)
@@ -30,6 +30,6 @@ for f in os.listdir("{}/{}".format(os.getcwd(), "logos")):
     for t in trans3:
         trans5.append((t[0], t[1], t[2], t[3]))
     img.putdata(trans5)
-    img.save('new_logos/{}'.format(f.split('.')[0]), 'JPEG')
+    img.save('new_logosss/{}'.format(f.split('.')[0]), 'PNG')
     print(f)
 
